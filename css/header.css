@@ -1,0 +1,18 @@
+.navbar-brand{
+    
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 0.5em;
+}
+.navbar-logo{
+    width: 1.5em;
+}
+.navbar-nav{
+    gap: 2em;
+}
+@media (max-width: 991px) {
+    .navbar-nav {
+        gap: 0em;
+    }
+}
+  

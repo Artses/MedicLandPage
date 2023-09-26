@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAM</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/Component 1 (1).svg" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+            <div class="container">
+                <div class="navbar-brand">
+                    <div>
+                        <p>SAM</p>
+                    </div>
+                    <div class="navbar-logo">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128"
+                            style="enable-background:new 0 0 128 128" xml:space="preserve">
+                            <path style="fill:#171617"
+                                d="M83.411 125.74H44.329V99.408L20.871 112.89.16 77.84l23.532-13.838L0 50.156l20.898-35.048 23.431 13.483V2.26h39.082v26.333l23.358-13.484 20.662 35.048-23.559 13.846 23.681 13.838-20.805 35.051-23.337-13.484v26.332zm-30.854-8.232h22.627V84.662l28.671 16.658 12.068-20.453-28.759-16.865 28.839-16.873-12.162-20.45-28.658 16.659V10.492H52.557V43.34L23.786 26.68 11.667 47.13l28.731 16.873L11.55 80.867l12.256 20.453 28.751-16.658v32.846z" />
+                        </svg>
+                    </div>
+                </div>
+                <button-card-services class="navbar-toggler" type="button-card-services" data-bs-toggle="collapse"
+                    data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button-card-services>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link " href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about-us">Sobre nós</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Services">Serviços</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#footer">Contato</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button-card-services type="button-card-services" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button-card-services>
+                <button-card-services type="button-card-services" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide-to="1" aria-label="Slide 2"></button-card-services>
+                <button-card-services type="button-card-services" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide-to="2" aria-label="Slide 3"></button-card-services>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active"
+                    style="background-image: url(/assets/national-cancer-institute-L8tWZT4CcVQ-unsplash.jpg)">
+                    <div class="carousel-caption">
+                        <h5>Primeiro slide </h5>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                    </div>
+                </div>
+                <div class="carousel-item"
+                    style="background-image: url(/assets/national-cancer-institute-701-FJcjLAQ-unsplash.jpg)">
+                    <div class="carousel-caption">
+                        <h5>Segundo slide</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                    </div>
+                </div>
+                <div class="carousel-item "
+                    style="background-image: url(/assets/national-cancer-institute-NFvdKIhxYlU-unsplash.jpg)">
+                    <div class="carousel-caption">
+                        <h5>Terceiro slide </h5>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                    </div>
+                </div>
+            </div>
+            <button-card-services class="carousel-control-prev" type="button-card-services"
+                data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button-card-services>
+            <button-card-services class="carousel-control-next" type="button-card-services"
+                data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button-card-services>
+        </div>
+    </main>
+    <section id="about-us">
+        <div class="about-us-part">
+            <div class="services about-us-text">
+                <H2>Sobre nós</H2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Optio omnis iste non dolores illo ullam
+                    aspernatur. Eligendi illum voluptas<br> nemo numquam ipsum et nesciunt, ab ea impedit fuga alias
+                    dolorem?</p>
+            </div>
+            <div class="about-us-image">
+                <img src="/assets/home.png" alt="Medic" class="image-about-us">
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="services" id="Services">
+            <H2>Nossos serviços</H2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Optio omnis iste non dolores illo ullam
+                aspernatur. Eligendi illum voluptas<br> nemo numquam ipsum et nesciunt, ab ea impedit fuga alias
+                dolorem?</p>
+        </div>
+    </section>
+    <section>
+        <div class="cards">
+            <article class="plan [ card ]">
+                <div class="inner">
+
+                    <span class="pricing">
+                        <span>
+                            $12 <small>/ m</small>
+                        </span>
+                    </span>
+                    <h2 class="title">Basico</h2>
+                    <p class="info">Lorem ipsum dolor sit amet consectetur, adipisicing elit business.</p>
+                    <ul class="features">
+                        <li>
+                            <span class="icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                                    <path fill="none" d="M0 0h24v24H0z" />
+                                    <path d="M10 15.172l9.192-9.193 1.415 1.414L10 18l-6.364-6.364 1.414-1.414z"
+                                        fill="currentColor" />
+                                </svg>
+                            </span>
+                            <span><strong>One</strong> User</span>
+                        </li>
+                        <li>
+                            <span class="icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                                    <path fill="none" d="M0 0h24v24H0z" />
+                                    <path d="M10 15.172l9.192-9.193 1.415 1.414L10 18l-6.364-6.364 1.414-1.414z"
+                                        fill="currentColor" />
+                                </svg>
+                            </span>
+                            <span>Plan <strong>team meetings</strong></span>
+                        </li>
+                        <li>
+                            <span class="icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                                    <path fill="none" d="M0 0h24v24H0z" />
+                                    <path d="M10 15.172l9.192-9.193 1.415 1.414L10 18l-6.364-6.364 1.414-1.414z"
+                                        fill="currentColor" />
+                                </svg>
+                            </span>
+                            <span>File sharing</span>
+                        </li>
+                    </ul>
+                    <a class="button-card-services" href="#">
+                        Choose plan
+                    </a>
+                </div>
+            </article>
+            <article class="plan [ card ]">
+                <div class="inner">
+
+                    <span class="pricing">
+                        <span>
+                            $26 <small>/ m</small>
+                        </span>
+                    </span>
+                    <h2 class="title">Professional</h2>
+                    <p class="info">Lorem ipsum dolor sit amet consectetur, adipisicing elit business.</p>
+                    <ul class="features">
+                        <li>
+                            <span class="icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                                    <path fill="none" d="M0 0h24v24H0z" />
+                                    <path d="M10 15.172l9.192-9.193 1.415 1.414L10 18l-6.364-6.364 1.414-1.414z"
+                                        fill="currentColor" />
+                                </svg>
+                            </span>
+                            <span><strong>5</strong> team members</span>
+                        </li>
+                        <li>
+                            <span class="icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                                    <path fill="none" d="M0 0h24v24H0z" />
+                                    <path d="M10 15.172l9.192-9.193 1.415 1.414L10 18l-6.364-6.364 1.414-1.414z"
+                                        fill="currentColor" />
+                                </svg>
+                            </span>
+                            <span>Plan <strong>team meetings</strong></span>
+                        </li>
+                        <li>
+                            <span class="icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                                    <path fill="none" d="M0 0h24v24H0z" />
+                                    <path d="M10 15.172l9.192-9.193 1.415 1.414L10 18l-6.364-6.364 1.414-1.414z"
+                                        fill="currentColor" />
+                                </svg>
+                            </span>
+                            <span>File sharing</span>
+                        </li>
+                    </ul>
+                    <a class="button-card-services" href="#">
+                        Choose plan
+                    </a>
+                </div>
+            </article>
+            <article class="plan [ card ]">
+                <div class="inner">
+
+                    <span class="pricing">
+                        <span>
+                            $56 <small>/ m</small>
+                        </span>
+                    </span>
+                    <h2 class="title">Interprise</h2>
+                    <p class="info">Lorem ipsum dolor sit amet consectetur, adipisicing elit business.</p>
+                    <ul class="features">
+                        <li>
+                            <span class="icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                                    <path fill="none" d="M0 0h24v24H0z" />
+                                    <path d="M10 15.172l9.192-9.193 1.415 1.414L10 18l-6.364-6.364 1.414-1.414z"
+                                        fill="currentColor" />
+                                </svg>
+                            </span>
+                            <span><strong>20</strong> team members</span>
+                        </li>
+                        <li>
+                            <span class="icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                                    <path fill="none" d="M0 0h24v24H0z" />
+                                    <path d="M10 15.172l9.192-9.193 1.415 1.414L10 18l-6.364-6.364 1.414-1.414z"
+                                        fill="currentColor" />
+                                </svg>
+                            </span>
+                            <span>Plan <strong>team meetings</strong></span>
+                        </li>
+                        <li>
+                            <span class="icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                                    <path fill="none" d="M0 0h24v24H0z" />
+                                    <path d="M10 15.172l9.192-9.193 1.415 1.414L10 18l-6.364-6.364 1.414-1.414z"
+                                        fill="currentColor" />
+                                </svg>
+                            </span>
+                            <span>File sharing</span>
+                        </li>
+                    </ul>
+                    <a class="button-card-services" href="#">
+                        Choose plan
+                    </a>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <footer class="footer" id="footer">
+        <div class="container bottom_border">
+            <div class="row">
+                <div class=" col-sm-4 col-md col-sm-4  col-12 col">
+                    <h5 class="headin5_amrc col_white_amrc pt2">Find us</h5>
+
+                    <p class="mb10">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                        Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                    <p><i class="fa fa-location-arrow"></i> 9878/25 sec 9 rohini 35 </p>
+                    <p><i class="fa fa-phone"></i> +91-9999878398 </p>
+                    <p><i class="fa fa fa-envelope"></i> info@example.com </p>
+
+
+                </div>
+
+
+                <div class=" col-sm-4 col-md  col-6 col">
+                    <h5 class="headin5_amrc col_white_amrc pt2">Quick links</h5>
+
+                    <ul class="footer_ul_amrc">
+                        <li><a href="http://webenlance.com">Image Rectoucing</a></li>
+                        <li><a href="http://webenlance.com">Clipping Path</a></li>
+                        <li><a href="http://webenlance.com">Hollow Man Montage</a></li>
+                        <li><a href="http://webenlance.com">Ebay & Amazon</a></li>
+                        <li><a href="http://webenlance.com">Hair Masking/Clipping</a></li>
+                        <li><a href="http://webenlance.com">Image Cropping</a></li>
+                    </ul>
+
+                </div>
+
+
+                <div class=" col-sm-4 col-md  col-6 col">
+                    <h5 class="headin5_amrc col_white_amrc pt2">Quick links</h5>
+
+                    <ul class="footer_ul_amrc">
+                        <li><a href="http://webenlance.com">Remove Background</a></li>
+                        <li><a href="http://webenlance.com">Shadows & Mirror Reflection</a></li>
+                        <li><a href="http://webenlance.com">Logo Design</a></li>
+                        <li><a href="http://webenlance.com">Vectorization</a></li>
+                        <li><a href="http://webenlance.com">Hair Masking/Clipping</a></li>
+                        <li><a href="http://webenlance.com">Image Cropping</a></li>
+                    </ul>
+
+                </div>
+
+
+                <div class=" col-sm-4 col-md  col-12 col">
+                    <h5 class="headin5_amrc col_white_amrc pt2">Follow us</h5>
+
+
+                    <ul class="footer_ul2_amrc">
+                        <li><a href="#"><i class="fab fa-twitter fleft padding-right"></i> </a>
+                            <p>Lorem Ipsum is simply dummy text of the printing...<a
+                                    href="#">https://www.lipsum.com/</a></p>
+                        </li>
+                        <li><a href="#"><i class="fab fa-twitter fleft padding-right"></i> </a>
+                            <p>Lorem Ipsum is simply dummy text of the printing...<a
+                                    href="#">https://www.lipsum.com/</a></p>
+                        </li>
+                        <li><a href="#"><i class="fab fa-twitter fleft padding-right"></i> </a>
+                            <p>Lorem Ipsum is simply dummy text of the printing...<a
+                                    href="#">https://www.lipsum.com/</a></p>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+
+</body>
+
+
+</html>

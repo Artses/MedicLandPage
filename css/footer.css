@@ -1,0 +1,25 @@
+.footer{
+    background-color: rgb(194, 194, 194);
+    margin-top: 15em;
+}
+.col_white_amrc { color:#000000;}
+footer { width:100%; background-color:#aaaaaa; min-height:250px; padding:10px 0px 25px 0px ;}
+.pt2 { padding-top:40px ; margin-bottom:20px ;}
+footer p { font-size:13px; color:#000000; padding-bottom:0px; margin-bottom:8px;}
+.mb10 { padding-bottom:15px ;}
+.footer_ul_amrc { margin:0px ; list-style-type:none ; font-size:14px; padding:0px 0px 10px 0px ; }
+.footer_ul_amrc li {padding:0px 0px 5px 0px;}
+.footer_ul_amrc li a{ color:#000000;}
+.footer_ul_amrc li a:hover{ color:#000000; text-decoration:none;}
+.fleft { float:left;}
+.padding-right { padding-right:10px; }
+
+.footer_ul2_amrc {margin:0px; list-style-type:none; padding:0px;}
+.footer_ul2_amrc li p { display:table; }
+.footer_ul2_amrc li a:hover { text-decoration:none;}
+.footer_ul2_amrc li i { margin-top:5px;}
+
+.bottom_border { border-bottom:1px solid #363738; padding-bottom:20px;}
+
+
+/* Credit to https://bootsnipp.com/snippets/bxDBA */
